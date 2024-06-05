@@ -1,6 +1,6 @@
 document.getElementById('meuBotao').addEventListener('click', function() {
     document.getElementById('mensagem').innerText = "Você clicou no botão!";
-    this.style.backgroundColor = '#28a745'; // Muda a cor do botão para verde
+    this.style.backgroundColor = '#ff00d4'; // Muda a cor do botão para verde
 });
 
 document.getElementById('entradaTexto').addEventListener('input', function() {
