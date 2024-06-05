@@ -1,7 +1,8 @@
 body {
     background-image: url("foto.jpg");
-    background-size:120%;
+    background-size:100%;
     background-position:center;
+    background-position-y: -100px;
     font-family: Arial, sans-serif;
     text-align: center;
     background-color: #f0f0f0;
@@ -9,38 +10,44 @@ body {
 }
 
 h1 {
-    color: #333;
+    color: rgb(255, 255, 255);
 }
 
 button {
     padding: 10px 20px;
     font-size: 16px;
     cursor: pointer;
-    background-color: #007BFF;
+    background-color: #ff00d4;
     color: white;
     border: none;
     border-radius: 5px;
 }
 
 button:hover {
-    background-color: #0056b3;
+    background-color: #ff00d4;
 }
 
 #mensagem {
-    color: #007BFF;
+    color: #ffffff;
     font-weight: bold;
 }
 
 #textoAlterado {
-    color: #555;
+    color: rgb(255, 255, 255);
     font-style: italic;
 }
 
 a {
-    color: #007BFF;
+    color: #ff00d4;
     text-decoration: none;
 }
 
-a:hover {
-    text-decoration: underline;
+
+p {
+    color: bisque;
+
+}
+
+label {
+    color: bisque;
 }
