@@ -1,4 +1,7 @@
 body {
+    background-image: url("foto.jpg");
+    background-size:120%;
+    background-position:center;
     font-family: Arial, sans-serif;
     text-align: center;
     background-color: #f0f0f0;
